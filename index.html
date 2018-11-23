@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iREPORTER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./static/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./static/login.css"
+    <script src="main.js"></script>
+</head>
+
+<body > 
+    <div class="main-container">
+        <header>
+            <h1>Welcome to iREPORTER</h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html"> Login</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="login-body">
+            <div class="login-box">
+                <form id="login"  method="POST">
+                    <div class="login-form">
+                        <table>
+                            <tr>
+                                <td> <label for="user_name" > Username </label> </td>
+                                <td>  <input name ="username" type="text" placeholder="username" > </td>
+                            </tr>
+                            <tr>
+                                <td> <label for="password" >Password: </label> </td>
+                                <td>  <input type="password" placeholder="password" > </td>
+                            </tr>
+                            <tr style="display:flex">
+                             
+                                <td> <input type="checkbox" value="Remember" checked="checked" >Remember Me</td>
+                                <td> <input type="checkbox" value="forgot" >Forgot Password </td>
+                                
+                               
+                            </tr>
+                            <tr>
+                                    <td> <input type="button" class="sign-in" onclick="location.href='./templates/Lindex.html';" value="Sign in" ></button> </td>
+
+                                <td> <input type="button" class="create-login" onclick="location.href='./templates/create_login.html';" value="create account" ></button> </td>
+                            </tr>
+                            
+                            
+                        </table>    
+                    </div>
+                </form>
+               
+                
+               
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
