@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iREPORTER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>CREATE REDFLAG</h1>
+            <nav>
+                <ul>
+                    <li> <a href="login.html"> Logout</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="second-nav">
+            <nav>
+                <ul>
+                    <li> <a href="create_redflag.html">New Red Flag</a> </li>
+                    <li> <a href="create_intervation.html">New intervation</a> </li>
+                    <li> <a href="my_redflag.html">MY red flags</a> </li>
+                    <li> <a href="my_intervation.html">My intervation</a> </li>
+                    
+                </ul>
+            </nav>
+        </section>
+        <article class="Big-wrapper">
+                <form method="POST">
+                    <table>
+                        <tr>
+                            <td> <label for="title" > Title </label> </td>
+                            <td>  <input type="text" placeholder="Title"/></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="district" > District </label> </td>
+                            <td>  <input type="text" placeholder="District"/></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="location" > Location  </label> </td>
+                            <td>  <input type="text" placeholder="(latitudes, Longtudes)"/></td>
+                        </tr>
+                        <tr>
+                            <td> <label for="incedent-in" >  Incedent In </label> </td>
+                            <td>  <select>
+                                    <option value="gvt-ministry">Government Ministry</option>
+                                    <option value="police">Uganda Police</option>
+                                    <option value="hospital"> Government Hospital</option>
+                                    <option value="school">Government School</option>
+                                  </select>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="details" > Details </label> </td>
+                            <td>  <input type="text-area" rows="4" cols="50"> Description </td>
+                        </tr>
+                        <tr>
+                                <td>
+                                        <label for="upload image" > Upload Image </label>
+                                            <input type="file" name="pic" accept="image/*">
+                                            <input type="submit">
+                                      
+                                </td>
+                                <td> 
+                                        <label for="upload image" > Upload video </label>
+                                    <input type="file" name="pic" accept="image/*">
+                                    <input type="submit"></td>
+                            </tr>
+                        <tr>
+                            <td> <input type="submit" class="button_1" value="save"> </td>
+                            <td> <input type="submit" class="button_1" value="cancel"> </td>
+                          
+                        </tr>                             
+            
+                       
+                    </table>
+                    </form>
+        </article>
+    </div>
+    
+</body>
+</html>
