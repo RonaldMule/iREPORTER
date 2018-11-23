@@ -131,7 +131,26 @@ header a {
     background: #3aabf7;
   
     margin: 2px;
-   
+}
   
+table{
+    width: 65%;
+    clear: both;
+}
+th, td {
+    padding: 7px 17.5px 7px 17.5px;
+    
+     
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    text-align: left;
+    background: #add9f7
+}
+.table-body{
+    background: #c5c5c5
+}
    
 }
