@@ -56,7 +56,7 @@ header a {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2;
     text-decoration: none;
     
@@ -198,6 +198,25 @@ th{
     vertical-align: top;
     font-family: Arial;
     font-size: 12pt;
+}
+.create-redflag{
+    padding: 12px 30px 30px 12px;
+    background: aquamarine;
+    width: 40%;
+    height: 410px;
+    float: left;
+    margin:25px;
+    cursor: pointer;
+}
+.create-intervention{
+
+    padding: 12px 30px 30px 12px;
+    background: aquamarine;
+    width: 40%;
+    height: 410px;
+    float: right;
+    margin:25px;
+    cursor: pointer;
 }
      
    

@@ -6,8 +6,8 @@
     <title>iREPORTER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./static/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./static/login.css"
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./static/login.css">
+    
 </head>
 
 <body > 
@@ -15,9 +15,7 @@
         <header>
             <h1>Welcome to iREPORTER</h1>
             <nav>
-                <ul>
-                    <li> <a href="index.html"> Login</a> </li>
-                </ul>
+                
             </nav>
         </header>
         <div class="login-body">
@@ -27,11 +25,11 @@
                         <table>
                             <tr>
                                 <td> <label for="user_name" > Username </label> </td>
-                                <td>  <input name ="username" type="text" placeholder="username" > </td>
+                                <td>  <input id="username" name ="username" type="text" placeholder="username" > </td>
                             </tr>
                             <tr>
                                 <td> <label for="password" >Password: </label> </td>
-                                <td>  <input type="password" placeholder="password" > </td>
+                                <td>  <input id="mypassword" type="password" placeholder="password" > </td>
                             </tr>
                             <tr style="display:flex">
                              
@@ -41,7 +39,7 @@
                                
                             </tr>
                             <tr>
-                                    <td> <input type="button" class="sign-in" onclick="location.href='./templates/Lindex.html';" value="Sign in" ></button> </td>
+                                    <td> <input  type="button" class="sign-in" id="mybtn" value="Sign in" onclick="login_user()" > </td>
 
                                 <td> <input type="button" class="create-login" onclick="location.href='./templates/create_login.html';" value="create account" ></button> </td>
                             </tr>
@@ -51,11 +49,13 @@
                     </div>
                 </form>
                
+               
                 
                
             </div>
         </div>
     
     </div>
+    <script src="./static/login.js"></script>
 </body>
 </html>
