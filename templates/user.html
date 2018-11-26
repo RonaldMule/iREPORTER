@@ -8,13 +8,25 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../static/main.css" />
     <script src="main.js"></script>
 </head>
+<style>
+    img{
+        border-radius: 50%;
+    }
+    h2{
+    color: #a88a8a;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 30%;
+    }
+</style>
 <body>
     <div class="main-container">
         <header>
             <h1>WELCOME DEAR USER</h1>
             <nav>
                 <ul>
-                    <li> <a href="login.html"> Logout</a> </li>
+                        <li> <a href="../index.html"> Logout </a> </li>
                 </ul>
             </nav>
         </header>
@@ -29,9 +41,17 @@
                 </ul>
             </nav>
         </section>
-        <article class="create-order">
-                <img src="../static/gatuna-1.jpg" height="482px" width="88%">
-            </article> 
+        <div class="Big-wrapper">
+        <article class="create-redflag">
+            <h2>REPORT CORRUPTION</h2>
+            <img  src="../static/report.jpg" height="360px" width="400px" onclick="location.href='create_redflag.html'  " >
+        </article> 
+        <article class="create-intervention">
+            <h2>REPORT INTERVENTION</h2>
+        <img src="../static/gatuna-1.jpg" height="360px" width="400px"  onclick="location.href='create_intervation.html'  ">
+            
+        </article>  
+    </div>
     </div>
     
 </body>
